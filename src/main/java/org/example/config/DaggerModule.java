@@ -13,7 +13,7 @@ import javax.inject.Singleton;
         )
 
 public class DaggerModule {
-    @Provides
+   /* @Provides
     @Singleton
     HelloWorldService provideHelloService(){
         return new HelloWorldService();
@@ -22,5 +22,5 @@ public class DaggerModule {
     @Provides
     UserBean providesUserBean(){
         return new UserBean();
-    }
+    }*/
 }
